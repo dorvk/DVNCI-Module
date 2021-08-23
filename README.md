@@ -2,6 +2,8 @@
 
 DVNCI is a brand new, storyboardless, multidirectional, super-clean architecture for Swift development
 
+One Controller to rule them all!
+
 ![alt text](https://github.com/dorvk/DVNCI-Module/blob/master/Resources/diagram.png?raw=true)
 
 # Installation
