@@ -1,5 +1,5 @@
-XCODE_USER_TEMPLATES_DIR=~/Library/Developer/Xcode/Templates/File\ Templates
-DVNCI_TEMPLATES_DIR=Templates/DVNCI\ Templates
+XCODE_USER_TEMPLATES_DIR=~/Library/Developer/Xcode/Templates
+DVNCI_TEMPLATES_DIR=Templates/
 
 install_templates:
 	rm -R -f $(XCODE_USER_TEMPLATES_DIR)/$(DVNCI_TEMPLATES_DIR)
@@ -7,4 +7,4 @@ install_templates:
 	cp -R -f $(DVNCI_TEMPLATES_DIR) $(XCODE_USER_TEMPLATES_DIR)
 
 uninstall_templates:
-	rm -R $(XCODE_USER_TEMPLATES_DIR)/$(DVNCI_TEMPLATES_DIR)
+	rm -R $(XCODE_USER_TEMPLATES_DIR)/DVNCI\ Module.xctemplate
