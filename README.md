@@ -1,6 +1,6 @@
 # DVNCI-Module
 
-DVNCI is a brand new, storyboardless, multidirectional, super-clean architecture for Swift development
+DVNCI is a brand new, storyboardless, memoryleak-free, multidirectional, super-clean architecture for Swift development
 
 One Controller to rule them all!
 
